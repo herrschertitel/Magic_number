@@ -54,7 +54,7 @@ int main(int argc, char **argv) {
         puts("Size of file:");
         printf("%d\n", res);
     }
-    if (strstr(output,"7f454c46") != NULL) printf("File in type ELF\n");
+    // if (strstr(output,"7f454c46") != NULL) printf("File in type ELF\n");
     // if (strcmp(output,"7f454c46") > 0)
     //     printf("File in type ELF \n");
     return 0;
